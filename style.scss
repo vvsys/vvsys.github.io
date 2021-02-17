@@ -27,6 +27,7 @@ body {
 	background-repeat: repeat;
   font-family: 'Source Code Pro', monospace;
   color: $grey-body;
+	text-transform: lowercase;
 }
 
 .container {
@@ -40,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla', sans-serif;
   color: $grey-heading;
   font-weight: bold;
+	text-decoration: underline;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -75,11 +77,11 @@ p {
 }
 
 a {
-  color: #0080ff;
+  color: #ffffff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #0080ff;
+    color: #ffffff;
   }
 }
 
