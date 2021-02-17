@@ -23,8 +23,9 @@ html {
 }
 
 body {
-	background-image: url('https://raw.githubusercontent.com/vvsys/vvsys.github.io/master/images/download.png');
-	background-repeat: repeat;
+	// background-image: url('https://raw.githubusercontent.com/vvsys/vvsys.github.io/master/images/download.png');
+	//background-repeat: repeat;
+	background-color: $grey-body;
   font-family: 'Source Code Pro', monospace;
   color: $grey-body;
 	text-transform: lowercase;
