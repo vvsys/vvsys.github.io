@@ -233,14 +233,15 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #0080ff;
+    color: #ffffff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+	  text-decoration: underline;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #ffffff;
     }
   }
 }
