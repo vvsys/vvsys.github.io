@@ -1,6 +1,6 @@
 ---
 layout: post
-title: runItUp
+title: runItUp();
 ---
 
 finally making myself go through with using p5.js
