@@ -15,6 +15,9 @@
 /* BASE RULES */
 /**************/
 
+$grey-heading: #e6e6e6;
+$grey-body: #c6c6c6;
+
 html {
   font-size: 100%;
 }
@@ -22,7 +25,7 @@ html {
 body {
 	background: $white;
   font-family: 'Source Code Pro', monospace;
-  color: $darkGray;
+  color: $grey-body;
 }
 
 .container {
@@ -34,7 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla', sans-serif;
-  color: $darkerGray;
+  color: $grey-heading;
   font-weight: bold;
 
   line-height: 1.7;
@@ -71,11 +74,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #0080ff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #0080ff;
   }
 }
 
